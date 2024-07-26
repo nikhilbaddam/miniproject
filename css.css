@@ -1,0 +1,43 @@
+.content button{
+   
+            border: none;
+            color: black;
+            
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            transition: background 0.3s ease;
+            cursor: pointer;
+            
+}
+.content button:hover {
+    background-color: #adc5f8;
+    transform: scale(1.05);
+}
+.content .info{
+    display: flex;
+    margin-left: 15px;
+    
+}
+.content .info .virat .dhoni .rohit p{
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+.content h1{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.content img{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Shadow effect */
+            transition: box-shadow 0.3s ease;
+}
+.content img:hover{
+
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+
+     
+    
+}
+
